@@ -27,5 +27,7 @@ especially those unfamiliar with Conan, in quickly setting up and building the p
     echo "compiler.cppstd=20" >> ~/.conan2/profiles/default
     ```
 
+* Custom remote hosting internal dependencies packages.
+    conan remote add adnn "https://conan2.shredeagle.fr"
 
 
