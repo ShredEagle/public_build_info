@@ -10,6 +10,11 @@ especially those unfamiliar with Conan, in quickly setting up and building the p
 
 ## Requirements
 
+* A recent compiler version:
+  * MSVC >= 194
+  * GCC >= 14
+  * Clang >= 18
+
 * Conan 2.14 or newer. To install in a dedicated virtual-environment on a Linux system:
     ```bash
     # Create and activate a dedicated virtual-environment (optional)
@@ -29,5 +34,3 @@ especially those unfamiliar with Conan, in quickly setting up and building the p
 
 * Custom remote hosting internal dependencies packages.
     conan remote add adnn "https://conan2.shredeagle.fr"
-
-
